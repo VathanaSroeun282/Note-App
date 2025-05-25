@@ -25,7 +25,7 @@
 </template>
 
 <script setup lang="ts">
-import { Note } from '@/services/noteService'
+import { type Note } from '@/services/noteService'
 
 defineProps<{ notes: Note[] }>()
 defineEmits(['edit', 'delete'])
